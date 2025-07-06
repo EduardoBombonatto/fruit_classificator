@@ -100,7 +100,7 @@ def calculate_iou(gt_mask, pred_mask):
     return iou_score
 
 if __name__ == '__main__':
-    full_dataset_folder = 'dataset_total'
+    full_dataset_folder = 'all_images_dataset'
     # Folder where ALL generated masks will be saved
     output_masks_folder = 'masks_geradas_final'
 
